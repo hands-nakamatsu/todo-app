@@ -2,9 +2,11 @@
 
 このアプリは、React を使ったシンプルな ToDo アプリです。
 
-## GitHub Pages へのデプロイ
+## GitHub Pages デプロイ
+https://hands-nakamatsu.github.io/todo-app/
+
 このアプリは、GitHub Actions を使って自動的に GitHub Pages にデプロイされます。
-そのため、vite.config.js の `base` オプションを正しく設定する必要があります。
+GitHub Pages で正常に動作させるためには、vite.config.js の `base` オプションを GitHub Pages のリポジトリ名に合わせてください。
 
 ```js
 // vite.config.js
